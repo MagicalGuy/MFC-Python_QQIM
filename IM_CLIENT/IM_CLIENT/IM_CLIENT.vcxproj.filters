@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{72cc2109-381e-4d2b-ae35-0aa540da327c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Dialog">
+      <UniqueIdentifier>{5ea1b098-873d-4665-9379-2c351645a7db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Base">
+      <UniqueIdentifier>{5902d3db-635b-47ee-aa40-6bbbf8e6b8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Button">
+      <UniqueIdentifier>{9ea73519-7abc-43a0-afbb-c73be5617030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Other">
+      <UniqueIdentifier>{a1e5fe4a-effd-4856-99f2-1b9535052274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Image">
+      <UniqueIdentifier>{3e84c1f6-8c51-43be-85d7-244d4aca509a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Edit">
+      <UniqueIdentifier>{74a1af25-d987-4aae-aa30-8452a6d0c873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Menu">
+      <UniqueIdentifier>{f47a8d85-2205-4085-b5d7-909f1404448e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\List">
+      <UniqueIdentifier>{33f2d4cf-77de-49c2-96e6-a2dc03e6d15c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Dialog\DlgBase.cpp">
+      <Filter>ui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Dialog\WndPopup.cpp">
+      <Filter>ui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Base\ControlBase.cpp">
+      <Filter>ui\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Base\GlobalFunction.cpp">
+      <Filter>ui\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\ButtonEx.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\CheckButton.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\ImageButton.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\LinkButton.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\StatusButton.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Other\Area.cpp">
+      <Filter>ui\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Image\PhotoFrame.cpp">
+      <Filter>ui\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Edit\EditEx.cpp">
+      <Filter>ui\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Menu\MenuEx.cpp">
+      <Filter>ui\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\List\LoginList.cpp">
+      <Filter>ui\List</Filter>
+    </ClCompile>
+    <ClCompile Include="IM_CLIENT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IM_CLIENTDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IM_MAIN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTab.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xxtea.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgRegister.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgFriend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgOne2One.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgSendFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgGroupChat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgChatRecord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgSearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgUserInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Dialog\DlgBase.h">
+      <Filter>ui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Dialog\WndPopup.h">
+      <Filter>ui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Base\ControlBase.h">
+      <Filter>ui\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Base\GlobalFunction.h">
+      <Filter>ui\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\ButtonEx.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\CheckButton.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\ImageButton.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\LinkButton.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\StatusButton.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Other\Area.h">
+      <Filter>ui\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Image\PhotoFrame.h">
+      <Filter>ui\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Edit\EditEx.h">
+      <Filter>ui\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Menu\MenuEx.h">
+      <Filter>ui\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\List\LoginList.h">
+      <Filter>ui\List</Filter>
+    </ClInclude>
+    <ClInclude Include="IM_CLIENT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IM_CLIENTDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IM_MAIN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTab.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xxtea.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgRegister.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgFriend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgOne2One.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgSendFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgGroupChat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgChatRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgUserInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\away.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bk.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bk1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bk2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BT_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BT_DEFAULT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BT_DROP_DOWN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BT_KEY_BOARD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BT_MIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\busy.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EDIT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HEAD_100.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HEAD_101.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HEAD_102.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HEAD_103.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HEAD_104.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HEAD_105.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HEAD_106.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\head_bkg.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imoffline.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imonline.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\invisible.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\LOGIN_CHECK_BOX.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\LOGIN_LIST_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\LOGIN_LIST_HEAD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MENU.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\mute.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Qme.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\QQ.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Status.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Status_arrow.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SwitchBtn.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IM_CLIENT.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\IM_CLIENT.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,539 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\IM_CLIENT.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\QQ.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_QQ_DIALOG DIALOGEX 0, 0, 323, 199
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TOPMOST | WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+IDD_DLG_POPUP DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_CHAT_MAIN DIALOGEX 0, 0, 221, 283
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户界面"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MYIMG,"Static",SS_BITMAP | SS_CENTERIMAGE,7,7,68,57,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    LTEXT           "用户名",IDC_MYNAME,145,16,27,8
+    CONTROL         "",IDC_CHAT_TAB,"SysTabControl32",TCS_FIXEDWIDTH,7,64,200,212
+    PUSHBUTTON      "+",IDC_ADD,164,48,50,14
+    LTEXT           "用户名：",IDC_STATIC,85,16,34,8
+END
+
+IDD_DLG_REG DIALOGEX 0, 0, 269, 229
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "注册用户"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "用户名：",IDC_STATIC,27,26,34,12
+    EDITTEXT        IDC_EDIT1,83,22,93,23,ES_AUTOHSCROLL
+    LTEXT           "密码：",IDC_STATIC,31,68,31,11
+    EDITTEXT        IDC_EDIT2,83,59,92,21,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "确认密码：",IDC_STATIC,29,114,44,8
+    EDITTEXT        IDC_EDIT3,82,104,92,21,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "注册",IDC_BUTTON1,103,169,50,14
+END
+
+IDD_DLG_MSG DIALOGEX 0, 0, 209, 227
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LASTCHAT,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,15,18,178,193
+END
+
+IDD_DLG_FRIEND DIALOGEX 0, 0, 207, 206
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_FRIEND,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,19,18,171,174
+END
+
+IDD_DLG_1TO1 DIALOGEX 0, 0, 376, 258
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "私聊"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_FRECV,7,7,275,129,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        IDC_EDIT_FSEND,7,165,276,86,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "发送文件",IDC_SENDFILE,303,27,50,14
+    PUSHBUTTON      "视频通话",IDC_VIDEO,306,103,50,14
+    PUSHBUTTON      "本地记录",IDC_CHATRECORD,231,147,50,14
+    LTEXT           "发送内容",IDC_STATIC,15,147,60,13
+    PUSHBUTTON      "发送",IDC_FSEND,299,225,50,14
+    PUSHBUTTON      "云记录",IDC_CHATRECORD1,178,147,50,14
+END
+
+IDD_SENDFILE DIALOGEX 0, 0, 239, 196
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "发送文件"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_FILEPATH,21,17,190,84,ES_AUTOHSCROLL
+    PUSHBUTTON      "发送",IDC_BUTTON1,91,131,50,14
+END
+
+IDD_DLG_GROUP DIALOGEX 0, 0, 216, 226
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_GROUP,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,17,19,181,190
+END
+
+IDD_GROUPCHAT DIALOGEX 0, 0, 395, 270
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "群聊"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_GRECV,7,7,248,164,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        IDC_EDIT_GSEND,7,196,248,67,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "发送",IDC_GSEND,255,249,50,14
+    CONTROL         "",IDC_LIST_GMEMBER,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,262,7,121,230
+END
+
+IDD_CHATRECORD DIALOGEX 0, 0, 314, 233
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "聊天记录"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_RECORDTEXT,16,7,281,219,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+END
+
+IDD_SEARCH DIALOGEX 0, 0, 231, 194
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "搜索好友或群"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "请输入查找ID：",IDC_STATIC,17,19,62,14
+    EDITTEXT        IDC_EDIT1,86,15,107,19,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,84,45,50,14
+    CONTROL         "",IDC_SEARCHLIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,27,68,174,104
+END
+
+IDD_USERINFO DIALOGEX 0, 0, 233, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户信息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "添加",IDOK,89,121,50,14
+    LTEXT           "用户ID：",IDC_STATIC,27,29,34,8
+    LTEXT           "用户名：",IDC_STATIC,27,77,35,8
+    EDITTEXT        IDC_EDIT1,90,26,79,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,91,73,79,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "QQ:278162354"
+            VALUE "FileDescription", "仿QQ2012登录界面"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "QQ.exe"
+            VALUE "LegalCopyright", "~(@^_^@)~ "
+            VALUE "OriginalFilename", "QQ.exe"
+            VALUE "ProductName", "QQ"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_QQ_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_DLG_POPUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_CHAT_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+
+    IDD_DLG_REG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+
+    IDD_DLG_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_DLG_FRIEND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+
+    IDD_DLG_1TO1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 369
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+
+    IDD_SENDFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_DLG_GROUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_GROUPCHAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 388
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+
+    IDD_CHATRECORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 307
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 226
+    END
+
+    IDD_SEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_USERINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_BT_CLOSE            PNG                     "res\\BT_CLOSE.png"
+
+IDB_BT_MIN              PNG                     "res\\BT_MIN.png"
+
+IDB_BT_DEFAULT          PNG                     "res\\BT_DEFAULT.png"
+
+IDB_PNG_HEAD_BK         PNG                     "res\\head_bkg.png"
+
+IDB_PNG_SWITCH_BTN      PNG                     "res\\SwitchBtn.png"
+
+IDB_PNG_LONG_CHECK_BOX  PNG                     "res\\LOGIN_CHECK_BOX.png"
+
+IDB_PNG_EDIT            PNG                     "res\\EDIT.png"
+
+IDB_PNG_BT_DROP_DOWN    PNG                     "res\\BT_DROP_DOWN.png"
+
+IDB_PNG_BT_KEY_BOARD    PNG                     "res\\BT_KEY_BOARD.png"
+
+IDB_PNG_LOGIN_LIST_CLOSE PNG                     "res\\LOGIN_LIST_CLOSE.png"
+
+IDB_PNG_LOGIN_LIST_HEAD PNG                     "res\\LOGIN_LIST_HEAD.png"
+
+IDB_PNG_HEAD_100        PNG                     "res\\HEAD_100.png"
+
+IDB_PNG_HEAD_101        PNG                     "res\\HEAD_101.png"
+
+IDB_PNG_HEAD_102        PNG                     "res\\HEAD_102.png"
+
+IDB_PNG_HEAD_103        PNG                     "res\\HEAD_103.png"
+
+IDB_PNG_HEAD_104        PNG                     "res\\HEAD_104.png"
+
+IDB_PNG_HEAD_105        PNG                     "res\\HEAD_105.png"
+
+IDB_PNG_STATUS_ARROW    PNG                     "res\\Status_arrow.png"
+
+IDB_PNG_MENU            PNG                     "res\\MENU.png"
+
+IDB_PNG_AWAY            PNG                     "res\\away.png"
+
+IDB_PNG_BUSY            PNG                     "res\\busy.png"
+
+IDB_PNG_IMOFFLINE       PNG                     "res\\imoffline.png"
+
+IDB_PNG_IMONLINE        PNG                     "res\\imonline.png"
+
+IDB_PNG_INVISIBLE       PNG                     "res\\invisible.png"
+
+IDB_PNG_MUTE            PNG                     "res\\mute.png"
+
+IDB_PNG_QME             PNG                     "res\\Qme.png"
+
+IDB_PNG_HEAD_106        PNG                     "res\\HEAD_106.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_BACK         BITMAP                  "res\\bk.bmp"
+
+IDB_BITMAP_BACK_1       BITMAP                  "res\\bk1.bmp"
+
+IDB_BITMAP_BACK_2       BITMAP                  "res\\bk2.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_CHAT_MAIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_REG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_MSG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_FRIEND AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_1TO1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_SENDFILE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_GROUP AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_GROUPCHAT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_CHATRECORD AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_SEARCH AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_USERINFO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "群聊菜单0"
+    BEGIN
+        MENUITEM "添加好友",                        ID_32771
+        MENUITEM "查看资料",                        ID_32772
+    END
+    POPUP "添加菜单1"
+    BEGIN
+        MENUITEM "添加好友",                        ID_32773
+        MENUITEM "添加群",                         ID_32774
+        MENUITEM "刷新",                          ID_32775
+    END
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\IM_CLIENT.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
